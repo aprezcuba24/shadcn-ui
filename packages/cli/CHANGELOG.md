@@ -1,5 +1,11 @@
 # @shadcn/ui
 
+## 0.8.1-1
+
+### Patch Changes
+
+- [`78743e5`](https://github.com/shadcn-ui/ui/commit/78743e54b621f5be4c1b861ebf971ee48d874fbc) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - I change the url where the program gets the component to use my own.
+
 ## 0.8.0
 
 ### Minor Changes
