@@ -44,10 +44,22 @@ export const examples: Registry = [
     files: ["example/badge-demo.tsx"],
   },
   {
+    name: "bigBadge-demo",
+    type: "components:example",
+    registryDependencies: ["badge"],
+    files: ["example/bigBadge-demo.tsx"],
+  },
+  {
     name: "badge-destructive",
     type: "components:example",
     registryDependencies: ["badge"],
     files: ["example/badge-destructive.tsx"],
+  },
+  {
+    name: "bigBadge-destructive",
+    type: "components:example",
+    registryDependencies: ["badge"],
+    files: ["example/bigBadge-destructive.tsx"],
   },
   {
     name: "badge-outline",
@@ -56,10 +68,22 @@ export const examples: Registry = [
     files: ["example/badge-outline.tsx"],
   },
   {
+    name: "bigBadge-outline",
+    type: "components:example",
+    registryDependencies: ["badge"],
+    files: ["example/bigBadge-outline.tsx"],
+  },
+  {
     name: "badge-secondary",
     type: "components:example",
     registryDependencies: ["badge"],
     files: ["example/badge-secondary.tsx"],
+  },
+  {
+    name: "bigBadge-secondary",
+    type: "components:example",
+    registryDependencies: ["badge"],
+    files: ["example/bigBadge-secondary.tsx"],
   },
   {
     name: "breadcrumb-demo",

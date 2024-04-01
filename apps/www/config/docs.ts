@@ -113,6 +113,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "BigBadge",
+          href: "/docs/components/bigBadge",
+          items: [],
+        },
+        {
           title: "Breadcrumb",
           href: "/docs/components/breadcrumb",
           items: [],
