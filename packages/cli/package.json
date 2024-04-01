@@ -7,12 +7,12 @@
   },
   "license": "MIT",
   "author": {
-    "name": "shadcn",
-    "url": "https://twitter.com/shadcn"
+    "name": "aprezcuba24",
+    "url": "https://renierricardo.dev/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadcn/ui.git",
+    "url": "https://github.com/aprezcuba24/shadcn-ui",
     "directory": "packages/cli"
   },
   "files": [
