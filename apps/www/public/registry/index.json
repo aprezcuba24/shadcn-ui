@@ -57,6 +57,13 @@
     "type": "components:ui"
   },
   {
+    "name": "bigBadge",
+    "files": [
+      "ui/bigBadge.tsx"
+    ],
+    "type": "components:ui"
+  },
+  {
     "name": "breadcrumb",
     "dependencies": [
       "@radix-ui/react-slot"

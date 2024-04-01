@@ -1,5 +1,11 @@
 # @shadcn/ui
 
+## 0.9.0
+
+### Minor Changes
+
+- Added the BigBadge component. It is only for testing.
+
 ## 0.8.2
 
 ### Patch Changes
