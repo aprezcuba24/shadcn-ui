@@ -1,5 +1,11 @@
 # @shadcn/ui
 
+## 0.8.2
+
+### Patch Changes
+
+- Change the name of cli in the main package.json
+
 ## 0.8.1
 
 ### Patch Changes
