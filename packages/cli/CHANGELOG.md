@@ -1,5 +1,11 @@
 # @shadcn/ui
 
+## 0.8.1
+
+### Patch Changes
+
+- [`f4e89e4`](https://github.com/shadcn-ui/ui/commit/f4e89e416f4b15df051c8b4cae4f745eea2c06ad) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Change the readme and the package.json of package/cli
+
 ## 0.8.1-1
 
 ### Patch Changes
