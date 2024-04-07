@@ -16,13 +16,7 @@
 
 ### Patch Changes
 
-- [`f4e89e4`](https://github.com/shadcn-ui/ui/commit/f4e89e416f4b15df051c8b4cae4f745eea2c06ad) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Change the readme and the package.json of package/cli
-
-## 0.8.1-1
-
-### Patch Changes
-
-- [`78743e5`](https://github.com/shadcn-ui/ui/commit/78743e54b621f5be4c1b861ebf971ee48d874fbc) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - I change the url where the program gets the component to use my own.
+- [#2473](https://github.com/shadcn-ui/ui/pull/2473) [`343b20f`](https://github.com/shadcn-ui/ui/commit/343b20fc5c49ee8968fe56e42527ba1cc8ede0ec) Thanks [@kevinmitch14](https://github.com/kevinmitch14)! - update zod imports
 
 ## 0.8.0
 
