@@ -1,5 +1,11 @@
 # @shadcn/ui
 
+## 0.10.0
+
+### Minor Changes
+
+- A new version of my shadcn
+
 ## 0.9.0
 
 ### Minor Changes
