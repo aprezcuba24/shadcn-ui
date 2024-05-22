@@ -21,6 +21,10 @@ export default function IndexPage() {
       <PageHeader>
         <Announcement />
         <PageHeaderHeading>Build your component library</PageHeaderHeading>
+        <PageHeaderDescription className="bg-red-400 text-white p-2 rounded">
+          This project is a fork of shadcn-ui.
+          Some components are been changed and other ones are added.
+        </PageHeaderDescription>
         <PageHeaderDescription>
           Beautifully designed components that you can copy and paste into your
           apps. Accessible. Customizable. Open Source.
