@@ -1,0 +1,15 @@
+{
+  "name": "btn-confirm",
+  "dependencies": [],
+  "registryDependencies": [
+    "button",
+    "alert-dialog"
+  ],
+  "files": [
+    {
+      "name": "btn-confirm.tsx",
+      "content": "import {\n  AlertDialog,\n  AlertDialogAction,\n  AlertDialogCancel,\n  AlertDialogContent,\n  AlertDialogDescription,\n  AlertDialogFooter,\n  AlertDialogHeader,\n  AlertDialogTitle,\n  AlertDialogTrigger,\n} from \"@/registry/new-york/ui/alert-dialog\"\nimport { Button, ButtonProps } from \"@/registry/new-york/ui/button\";\n\nexport type BtnConfirmProps = {\n  btnIcon?: React.ReactNode,\n  btnText?: string,\n  title: string,\n  description: string,\n  btnCancelText?: string,\n  btnContinueText?: string,\n  action: () => any,\n  btnAttr?: ButtonProps,\n}\n\nexport function BtnConfirm({ btnIcon, btnText, title, description, action, btnAttr, btnCancelText = 'Cancel', btnContinueText = 'Continue' }: BtnConfirmProps) {\n  return (\n    <AlertDialog>\n      <AlertDialogTrigger asChild>\n        <Button variant=\"outline\" size={btnIcon ? \"icon\" : \"default\"} {...btnAttr}>{btnIcon || btnText}</Button>\n      </AlertDialogTrigger>\n      <AlertDialogContent>\n        <AlertDialogHeader>\n          <AlertDialogTitle>{title}</AlertDialogTitle>\n          <AlertDialogDescription>{description}</AlertDialogDescription>\n        </AlertDialogHeader>\n        <AlertDialogFooter>\n          <AlertDialogCancel>{btnCancelText}</AlertDialogCancel>\n          <AlertDialogAction onClick={action}>{btnContinueText}</AlertDialogAction>\n        </AlertDialogFooter>\n      </AlertDialogContent>\n    </AlertDialog>\n  )\n}\n"
+    }
+  ],
+  "type": "components:ui"
+}

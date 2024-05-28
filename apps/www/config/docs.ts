@@ -329,6 +329,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/tooltip",
           items: [],
         },
+        {
+          title: "Btn Confirm",
+          href: "/docs/components/btn-confirm",
+          items: [],
+        },
       ],
     },
   ],

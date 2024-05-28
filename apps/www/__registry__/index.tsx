@@ -76,9 +76,11 @@ export const Index: Record<string, any> = {
       type: "components:ui",
       registryDependencies: undefined,
       component: React.lazy(() => import("@/registry/default/ui/bigBadge")),
+      source: "",
       files: ["registry/default/ui/bigBadge.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "breadcrumb": {
       name: "breadcrumb",
@@ -509,6 +511,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "btn-confirm": {
+      name: "btn-confirm",
+      type: "components:ui",
+      registryDependencies: ["button","alert-dialog"],
+      component: React.lazy(() => import("@/registry/default/ui/btn-confirm")),
+      source: "",
+      files: ["registry/default/ui/btn-confirm.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "components:example",
@@ -591,9 +604,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/default/example/bigBadge-demo")),
+      source: "",
       files: ["registry/default/example/bigBadge-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "badge-destructive": {
       name: "badge-destructive",
@@ -611,9 +626,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/default/example/bigBadge-destructive")),
+      source: "",
       files: ["registry/default/example/bigBadge-destructive.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "badge-outline": {
       name: "badge-outline",
@@ -631,9 +648,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/default/example/bigBadge-outline")),
+      source: "",
       files: ["registry/default/example/bigBadge-outline.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "badge-secondary": {
       name: "badge-secondary",
@@ -651,9 +670,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/default/example/bigBadge-secondary")),
+      source: "",
       files: ["registry/default/example/bigBadge-secondary.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "breadcrumb-demo": {
       name: "breadcrumb-demo",
@@ -2118,6 +2139,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "btn-confirm-demo": {
+      name: "btn-confirm-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/btn-confirm-demo")),
+      source: "",
+      files: ["registry/default/example/btn-confirm-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "dashboard-05": {
       name: "dashboard-05",
       type: "components:block",
@@ -2511,9 +2543,11 @@ export const Index: Record<string, any> = {
       type: "components:ui",
       registryDependencies: undefined,
       component: React.lazy(() => import("@/registry/new-york/ui/bigBadge")),
+      source: "",
       files: ["registry/new-york/ui/bigBadge.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "breadcrumb": {
       name: "breadcrumb",
@@ -2944,6 +2978,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "btn-confirm": {
+      name: "btn-confirm",
+      type: "components:ui",
+      registryDependencies: ["button","alert-dialog"],
+      component: React.lazy(() => import("@/registry/new-york/ui/btn-confirm")),
+      source: "",
+      files: ["registry/new-york/ui/btn-confirm.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "components:example",
@@ -3026,9 +3071,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/new-york/example/bigBadge-demo")),
+      source: "",
       files: ["registry/new-york/example/bigBadge-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "badge-destructive": {
       name: "badge-destructive",
@@ -3046,9 +3093,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/new-york/example/bigBadge-destructive")),
+      source: "",
       files: ["registry/new-york/example/bigBadge-destructive.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "badge-outline": {
       name: "badge-outline",
@@ -3066,9 +3115,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/new-york/example/bigBadge-outline")),
+      source: "",
       files: ["registry/new-york/example/bigBadge-outline.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "badge-secondary": {
       name: "badge-secondary",
@@ -3086,9 +3137,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["badge"],
       component: React.lazy(() => import("@/registry/new-york/example/bigBadge-secondary")),
+      source: "",
       files: ["registry/new-york/example/bigBadge-secondary.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "breadcrumb-demo": {
       name: "breadcrumb-demo",
@@ -4553,6 +4606,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "btn-confirm-demo": {
+      name: "btn-confirm-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/btn-confirm-demo")),
+      source: "",
+      files: ["registry/new-york/example/btn-confirm-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "dashboard-05": {
       name: "dashboard-05",
       type: "components:block",
@@ -4615,17 +4679,9 @@ export const Index: Record<string, any> = {
       subcategory: "Dashboard",
       chunks: [{
         name: "dashboard-06-chunk-0",
-        description: "A breadcrumb with two links and a page indicator.",
+        description: "A list of products in a table with actions. Each row has an image, name, status, price, total sales, created at and actions.",
         component: React.lazy(() => import("@/registry/new-york/block/dashboard-06-chunk-0")),
         file: "registry/new-york/block/dashboard-06-chunk-0.tsx",
-        container: {
-          className: "undefined"
-        }
-      },{
-        name: "dashboard-06-chunk-1",
-        description: "A list of products in a table with actions. Each row has an image, name, status, price, total sales, created at and actions.",
-        component: React.lazy(() => import("@/registry/new-york/block/dashboard-06-chunk-1")),
-        file: "registry/new-york/block/dashboard-06-chunk-1.tsx",
         container: {
           className: "undefined"
         }

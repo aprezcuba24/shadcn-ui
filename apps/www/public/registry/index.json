@@ -462,5 +462,17 @@
       "ui/tooltip.tsx"
     ],
     "type": "components:ui"
+  },
+  {
+    "name": "btn-confirm",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "alert-dialog"
+    ],
+    "files": [
+      "ui/btn-confirm.tsx"
+    ],
+    "type": "components:ui"
   }
 ]

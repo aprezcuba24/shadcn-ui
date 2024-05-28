@@ -281,4 +281,12 @@ export const ui: Registry = [
     dependencies: ["@radix-ui/react-tooltip"],
     files: ["ui/tooltip.tsx"],
   },
+  //rrf-shadcn
+  {
+    name: "btn-confirm",
+    type: "components:ui",
+    dependencies: [],
+    registryDependencies: ["button", "alert-dialog"],
+    files: ["ui/btn-confirm.tsx"],
+  },
 ]

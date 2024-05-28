@@ -1,0 +1,54 @@
+---
+title: BtnConfirm
+description: Open a alert dialog when a button is clicked.
+component: true
+---
+
+<ComponentPreview name="btn-confirm-demo" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+```bash
+npx rrf-shadcn-ui@latest add btn-confirm
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="btn-confirm" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</Tabs>
+
+## Usage
+
+```tsx
+import { BtnConfirm } from "@/components/ui/btn-confirm"
+```
+
+```tsx
+<BtnConfirm
+  btnText="OK"
+  title="Confirm"
+  description="Are you sure?"
+  action={() => console.log("Confirm")}
+/>
+```
