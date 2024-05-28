@@ -1,0 +1,12 @@
+{
+  "name": "btn-list",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "name": "btn-list.tsx",
+      "content": "import { PropsWithChildren, ReactNode } from \"react\";\n\ntype BtnListProps = {\n  children: ReactNode[] | ReactNode\n}\n\nfunction Wrapper({ children }: PropsWithChildren) {\n  return (\n    <div className=\"flex items-start\">{children}</div>\n  )\n}\n\nexport function BtnList({ children }: BtnListProps) {\n  if (Array.isArray(children)) {\n    return (\n      <Wrapper>\n        {children.map((child, i) => (\n          <div className=\"mr-1\" key={i}>{child}</div>\n        ))}\n      </Wrapper>\n    )\n  }\n  return <Wrapper>{children}</Wrapper>\n}"
+    }
+  ],
+  "type": "components:ui"
+}

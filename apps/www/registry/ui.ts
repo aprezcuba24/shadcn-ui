@@ -296,4 +296,11 @@ export const ui: Registry = [
     registryDependencies: ["btn-confirm"],
     files: ["ui/btn-remove.tsx"],
   },
+  {
+    name: "btn-list",
+    type: "components:ui",
+    dependencies: [],
+    registryDependencies: [],
+    files: ["ui/btn-list.tsx"],
+  },
 ]

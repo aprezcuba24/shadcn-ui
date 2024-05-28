@@ -1,0 +1,52 @@
+---
+title: BtnList
+description: Creates a list of button to use in table columns
+component: true
+---
+
+<ComponentPreview name="btn-list-demo" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+```bash
+npx rrf-shadcn-ui@latest add btn-list
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="btn-list" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</Tabs>
+
+## Usage
+
+```tsx
+import { BtnList } from "@/components/ui/btn-list"
+```
+
+```tsx
+<BtnList>
+  <Button>Action 1</Button>
+  <Button>Action 2</Button>
+</BtnList>
+```

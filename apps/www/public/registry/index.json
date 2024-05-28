@@ -487,5 +487,14 @@
       "ui/btn-remove.tsx"
     ],
     "type": "components:ui"
+  },
+  {
+    "name": "btn-list",
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "ui/btn-list.tsx"
+    ],
+    "type": "components:ui"
   }
 ]
