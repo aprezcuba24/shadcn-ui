@@ -1,0 +1,55 @@
+---
+title: Btn Dialog Form
+description: Dialog to show a form
+component: true
+---
+
+<ComponentPreview name="btn-dialog-form-demo" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+```bash
+npx rrf-shadcn-ui@latest add btn-dialog-form
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="btn-dialog-form" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</Tabs>
+
+## Usage
+
+```tsx
+import { BtnDialogForm } from "@/components/ui/btn-dialog-form"
+```
+
+```tsx
+<BtnDialogForm
+  title="New"
+  action={create}
+  Component={Form}
+  btnVariant={'default'}
+  defaultValues={defaultValues}
+/>
+```

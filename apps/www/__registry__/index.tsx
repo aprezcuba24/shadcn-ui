@@ -544,6 +544,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "btn-dialog-form": {
+      name: "btn-dialog-form",
+      type: "components:ui",
+      registryDependencies: ["button","dialog"],
+      component: React.lazy(() => import("@/registry/default/ui/btn-dialog-form")),
+      source: "",
+      files: ["registry/default/ui/btn-dialog-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "components:example",
@@ -2194,6 +2205,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "btn-dialog-form-demo": {
+      name: "btn-dialog-form-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/default/example/btn-dialog-form-demo")),
+      source: "",
+      files: ["registry/default/example/btn-dialog-form-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "dashboard-05": {
       name: "dashboard-05",
       type: "components:block",
@@ -3051,6 +3073,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/ui/btn-list")),
       source: "",
       files: ["registry/new-york/ui/btn-list.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "btn-dialog-form": {
+      name: "btn-dialog-form",
+      type: "components:ui",
+      registryDependencies: ["button","dialog"],
+      component: React.lazy(() => import("@/registry/new-york/ui/btn-dialog-form")),
+      source: "",
+      files: ["registry/new-york/ui/btn-dialog-form.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []
@@ -4701,6 +4734,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/example/btn-list-demo")),
       source: "",
       files: ["registry/new-york/example/btn-list-demo.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "btn-dialog-form-demo": {
+      name: "btn-dialog-form-demo",
+      type: "components:example",
+      registryDependencies: undefined,
+      component: React.lazy(() => import("@/registry/new-york/example/btn-dialog-form-demo")),
+      source: "",
+      files: ["registry/new-york/example/btn-dialog-form-demo.tsx"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

@@ -1,0 +1,15 @@
+{
+  "name": "btn-dialog-form",
+  "dependencies": [],
+  "registryDependencies": [
+    "button",
+    "dialog"
+  ],
+  "files": [
+    {
+      "name": "btn-dialog-form.tsx",
+      "content": "\"use client\"\n\nimport React, { useCallback, useState } from \"react\"\n\nimport { Button, ButtonProps } from \"@/registry/new-york/ui/button\"\nimport {\n  Dialog,\n  DialogContent,\n  DialogHeader,\n  DialogTitle,\n} from \"@/registry/new-york/ui/dialog\"\n\ntype Form = React.ComponentType<{\n  action: any\n  defaultValues: any\n}>\n\nexport type BtnDialogFormProps = {\n  action: (object: any) => Promise<any>\n  defaultValues: any\n  title: string\n  btnIcon?: React.ReactNode\n  btnText?: string\n  btnVariant: ButtonProps[\"variant\"]\n  Component: Form\n}\n\nexport function BtnDialogForm({\n  action,\n  title,\n  btnIcon,\n  btnText,\n  Component,\n  defaultValues,\n  btnVariant = \"outline\",\n}: BtnDialogFormProps): JSX.Element {\n  btnText = btnText || title\n  const [open, setOpen] = useState(false)\n  const handleAction = useCallback(\n    async (props: any) => {\n      await action(props)\n      setOpen(false)\n    },\n    [action]\n  )\n  const handleOpen = useCallback(() => {\n    setOpen((prev) => !prev)\n  }, [])\n\n  return (\n    <>\n      <Button\n        variant={btnVariant}\n        onClick={handleOpen}\n        size={btnIcon ? \"icon\" : \"default\"}\n      >\n        {btnIcon || btnText}\n      </Button>\n      <Dialog open={open} onOpenChange={handleOpen}>\n        <DialogContent className=\"sm:max-w-[425px]\">\n          <DialogHeader>\n            <DialogTitle>{title}</DialogTitle>\n          </DialogHeader>\n          <div className=\"grid gap-4 py-4\">\n            <Component action={handleAction} defaultValues={defaultValues} />\n          </div>\n        </DialogContent>\n      </Dialog>\n    </>\n  )\n}\n"
+    }
+  ],
+  "type": "components:ui"
+}

@@ -344,6 +344,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/btn-list",
           items: [],
         },
+        {
+          title: "Btn dialog form",
+          href: "/docs/components/btn-dialog-form",
+          items: [],
+        },
       ],
     },
   ],

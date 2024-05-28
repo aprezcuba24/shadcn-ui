@@ -496,5 +496,17 @@
       "ui/btn-list.tsx"
     ],
     "type": "components:ui"
+  },
+  {
+    "name": "btn-dialog-form",
+    "dependencies": [],
+    "registryDependencies": [
+      "button",
+      "dialog"
+    ],
+    "files": [
+      "ui/btn-dialog-form.tsx"
+    ],
+    "type": "components:ui"
   }
 ]
