@@ -1,0 +1,16 @@
+{
+  "name": "btn-remove",
+  "dependencies": [
+    "@radix-ui/react-icons"
+  ],
+  "registryDependencies": [
+    "btn-confirm"
+  ],
+  "files": [
+    {
+      "name": "btn-remove.tsx",
+      "content": "import { TrashIcon } from \"@radix-ui/react-icons\";\nimport { BtnConfirm, BtnConfirmProps } from \"@/registry/new-york/ui/btn-confirm\";\n\ntype TKey = 'title' | 'description' | 'btnIcon'\n\ntype BtnRemoveProps = {\n  action: (id: any) => any,\n  entityId: any,\n} & Omit<BtnConfirmProps, TKey | 'action'> & Partial<Pick<BtnConfirmProps, TKey>>\n\nexport function BtnRemove({ action, entityId, ...props }: BtnRemoveProps): JSX.Element {\n  const newProps: BtnConfirmProps = {\n    ...{\n      title: \"Are you absolutely sure?\",\n      description: \"The record will be removed.\",\n      btnIcon: <TrashIcon />,\n      action: () => action(entityId),\n    }, ...props\n  }\n\n  return <BtnConfirm {...newProps} btnAttr={{ variant: 'destructive' }} />\n}"
+    }
+  ],
+  "type": "components:ui"
+}

@@ -474,5 +474,18 @@
       "ui/btn-confirm.tsx"
     ],
     "type": "components:ui"
+  },
+  {
+    "name": "btn-remove",
+    "dependencies": [
+      "@radix-ui/react-icons"
+    ],
+    "registryDependencies": [
+      "btn-confirm"
+    ],
+    "files": [
+      "ui/btn-remove.tsx"
+    ],
+    "type": "components:ui"
   }
 ]

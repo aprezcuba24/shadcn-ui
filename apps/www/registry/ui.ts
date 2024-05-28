@@ -289,4 +289,11 @@ export const ui: Registry = [
     registryDependencies: ["button", "alert-dialog"],
     files: ["ui/btn-confirm.tsx"],
   },
+  {
+    name: "btn-remove",
+    type: "components:ui",
+    dependencies: ["@radix-ui/react-icons"],
+    registryDependencies: ["btn-confirm"],
+    files: ["ui/btn-remove.tsx"],
+  },
 ]

@@ -334,6 +334,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/btn-confirm",
           items: [],
         },
+        {
+          title: "Btn Remove",
+          href: "/docs/components/btn-remove",
+          items: [],
+        },
       ],
     },
   ],

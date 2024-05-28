@@ -1,10 +1,10 @@
 ---
-title: BtnConfirm
-description: Open a alert dialog when a button is clicked.
+title: BtnRemove
+description: Button to remove a register.
 component: true
 ---
 
-<ComponentPreview name="btn-confirm-demo" />
+<ComponentPreview name="btn-remove-demo" />
 
 ## Installation
 
@@ -17,7 +17,7 @@ component: true
 <TabsContent value="cli">
 
 ```bash
-npx rrf-shadcn-ui@latest add btn-confirm
+npx rrf-shadcn-ui@latest add btn-remove
 ```
 
 </TabsContent>
@@ -28,7 +28,7 @@ npx rrf-shadcn-ui@latest add btn-confirm
 
 <Step>Copy and paste the following code into your project.</Step>
 
-<ComponentSource name="btn-confirm" />
+<ComponentSource name="btn-remove" />
 
 <Step>Update the import paths to match your project setup.</Step>
 
@@ -41,9 +41,14 @@ npx rrf-shadcn-ui@latest add btn-confirm
 ## Usage
 
 ```tsx
-import { BtnConfirm } from "@/components/ui/btn-confirm"
+import { BtnRemove } from "@/components/ui/btn-remove"
 ```
 
 ```tsx
-<BtnRemove action={remove} entityId={1} />
+<BtnConfirm
+  btnText="OK"
+  title="Confirm"
+  description="Are you sure?"
+  action={() => console.log("Confirm")}
+/>
 ```

@@ -871,9 +871,15 @@ export const examples: Registry = [
     type: "components:example",
     files: ["example/cards/cards.tsx"],
   },
+  //rrf-shadcn
   {
     name: "btn-confirm-demo",
     type: "components:example",
     files: ["example/btn-confirm-demo.tsx"],
+  },
+  {
+    name: "btn-remove-demo",
+    type: "components:example",
+    files: ["example/btn-remove-demo.tsx"],
   },
 ]
