@@ -310,4 +310,11 @@ export const ui: Registry = [
     registryDependencies: ["button", "dialog"],
     files: ["ui/btn-dialog-form.tsx"],
   },
+  {
+    name: "table-data",
+    type: "components:ui",
+    dependencies: [],
+    registryDependencies: ["table"],
+    files: ["ui/table-data.tsx", "types/pagination.ts"],
+  },
 ]

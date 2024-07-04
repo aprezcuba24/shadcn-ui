@@ -349,6 +349,11 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/btn-dialog-form",
           items: [],
         },
+        {
+          title: "Table Data",
+          href: "/docs/components/table-data",
+          items: [],
+        },
       ],
     },
   ],

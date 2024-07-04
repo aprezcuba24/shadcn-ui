@@ -555,6 +555,17 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "table-data": {
+      name: "table-data",
+      type: "components:ui",
+      registryDependencies: ["table"],
+      component: React.lazy(() => import("@/registry/default/ui/table-data")),
+      source: "",
+      files: ["registry/default/ui/table-data.tsx","registry/default/types/pagination.ts"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "accordion-demo": {
       name: "accordion-demo",
       type: "components:example",
@@ -3084,6 +3095,17 @@ export const Index: Record<string, any> = {
       component: React.lazy(() => import("@/registry/new-york/ui/btn-dialog-form")),
       source: "",
       files: ["registry/new-york/ui/btn-dialog-form.tsx"],
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "table-data": {
+      name: "table-data",
+      type: "components:ui",
+      registryDependencies: ["table"],
+      component: React.lazy(() => import("@/registry/new-york/ui/table-data")),
+      source: "",
+      files: ["registry/new-york/ui/table-data.tsx","registry/new-york/types/pagination.ts"],
       category: "undefined",
       subcategory: "undefined",
       chunks: []

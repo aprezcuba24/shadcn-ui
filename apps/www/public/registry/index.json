@@ -508,5 +508,17 @@
       "ui/btn-dialog-form.tsx"
     ],
     "type": "components:ui"
+  },
+  {
+    "name": "table-data",
+    "dependencies": [],
+    "registryDependencies": [
+      "table"
+    ],
+    "files": [
+      "ui/table-data.tsx",
+      "types/pagination.ts"
+    ],
+    "type": "components:ui"
   }
 ]
