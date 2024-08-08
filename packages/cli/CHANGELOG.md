@@ -1,5 +1,21 @@
 # @shadcn/ui
 
+## 0.11.0
+
+### Minor Changes
+
+- [`d23cf77`](https://github.com/shadcn-ui/ui/commit/d23cf776480f474add0da010e769706bdb42f2be) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Add the BtnRemove component
+
+- [`3f89451`](https://github.com/shadcn-ui/ui/commit/3f894518cd36f8c954df7fbddf2bfcf0a46781ef) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Add btn list
+
+- [`4aff634`](https://github.com/shadcn-ui/ui/commit/4aff63498bdfabe74f37306c1afd373c34e154a3) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Add btn dialog form
+
+- [`74e2618`](https://github.com/shadcn-ui/ui/commit/74e26187cbaff34ba70a87e239540caacc0ec07a) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Added the BtnConfirm component
+
+### Patch Changes
+
+- [`8e2a9bb`](https://github.com/shadcn-ui/ui/commit/8e2a9bb242e3bbd274bf7a639caf3b0e4da1e18e) Thanks [@aprezcuba24](https://github.com/aprezcuba24)! - Add data table
+
 ## 0.10.0
 
 ### Minor Changes
